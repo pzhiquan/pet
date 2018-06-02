@@ -1,0 +1,91 @@
+// CSS Needed to make it work (Wrote not using SCSS at all copy and paste away)
+// copy and paste into your CSS and the cursor should appear when typing begins
+.text-js{
+  opacity: 0;
+}
+.cursor{
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  /* Change colour of Cursor Here */
+  background-color: white;
+  z-index: 1;
+  animation: flash 0.5s none infinite alternate;
+}
+@keyframes flash{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+
+
+
+
+// Rest of CSS (Purely for this pen)
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+*{
+  margin: 0;
+  padding: 0;
+  boz-sizing: border-box;
+  font-family: "Open Sans", sans-serif
+}
+body{
+  background: linear-gradient(135deg,#00C4FF,#9D1BB2);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// Text Can be styled just like normal
+.headline{
+  margin: 20px;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  h1{
+    letter-spacing: 1.6px;
+    font-weight: 300;
+  }
+}
+
+.twitterLink{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px 15px;
+  z-index: 3;
+  svg{
+    width: 25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

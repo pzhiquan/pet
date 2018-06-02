@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+.text-js {
+  opacity: 0;
+}
+
+.cursor {
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  /* Change colour of Cursor Here */
+  background-color: white;
+  z-index: 1;
+  -webkit-animation: flash 0.5s none infinite alternate;
+          animation: flash 0.5s none infinite alternate;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  boz-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: url('../images/d159a05d76b3a2c8523a05894889c4b3.jpg')no-repeat;
+  background-size: 1500px 720px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headline {
+  margin: 20px;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+.headline h1 {
+  letter-spacing: 1.6px;
+  font-weight: 300;
+}
+
+.twitterLink {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px 15px;
+  z-index: 3;
+}
+.twitterLink svg {
+  width: 25px;
+}
+#xin{position: absolute;
+    top: 190px;
+    left: 140px;}
+#you{position: absolute;
+    top:185px;
+    left:22px;
+    }
+#yan{position: absolute;
+  top:5px;
+  left:600px;
+}
+#yan ul li{
+  height: 230px;
+  width: 315px;
+  background:url("../images/4c4e5166afc9c744af0960caf9c47aaf.png")no-repeat;
+  background-size: 310px 230px;
+  text-align: center;
+  position: relative;
+}
+#yan span{
+  color: #fff;
+  font-size: 29px;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+}
+#xin a{color: #fff;}
+#xin a:hover{text-decoration: none;}
+#xin span{padding-left: 10px;font-size: 22px;}
+.kuang{height: 75px;}

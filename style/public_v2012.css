@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0px; padding: 0px; border: 0px;}
+html { min-width:960px; }
+div,form,img,div,h2,h3,h4,p{ padding: 0px; border: 0px; margin: 0px; }
+select { border:1px solid #898989;}
+input,button,select,textarea{outline:none}
+textarea { border:1px solid #DDDDDD;}
+dl,dt,dd,ul,li { list-style-type: none; list-style-position: outside; padding: 0px; border: 0px; margin: 0px; }
+dl,ul { clear: left; text-align: left; }
+dt,dd,li { display: block; }
+h1,h2,h3,h4,h5,h6 { font-size: 9pt; margin: 0px; }
+em { font-style: normal; }
+
+input{ border:0px;}
+.right{ float:right !important;}
+.header_left{ float:left;}
+img,{ border:0px; margin:0px; padding:0px;}
+.clear-both { clear: both; }
+
+
+/*底部*/
+#foot{ background:url(../images/wowo2012/foot_bg.jpg) repeat-x; width:100%; text-align:center;padding :30px 0px; }
+#foot a{ padding:0px 5px;}
+#foot a:hover{ text-decoration:none;}
+
+.goTop,.goTop a,.goTop a:hover{width:42px; height:42px; display:block; z-index:10000;}
+.goTop{ bottom:50px; position:fixed; right:60px; _position:absolute; display:block;}
+.goTop a{ background-position:-194px 0px;}
+.goTop a:hover{ background-position:-194px -43px;}
+.vmenu_2{clear:both;width:100%;height:48px;background:url(../images/wowo2012/vmenu_bg.jpg) repeat-x;}
+
+
+/*内容*/
+#main_bg{ background:url(../images/wowo2012/main_bg.gif) repeat !important; width:100%; padding:0px; z-index:1; display:block; overflow:hidden; } 
+.main_box{ width:960px; margin:0px auto; padding:20px 0px;}
+.minfo-load{ background:url(../images/public/ldgimg.gif) no-repeat; display:block; width:58px; height:10px;filter:progid:DXImageTransform.Microsoft.alpha(opacity=50);-moz-opacity:0.5;opacity: 0.5; position:absolute; top:20px; right:20px; }
+
+.in_lkfoot {background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #E1E1E1;clear: both;display: block;margin: 0 auto 15px;overflow: hidden;padding: 20px;width: 960px;}
+.in_lkfoot a {display: inline-block;margin-right: 10px;white-space: nowrap;}
+
+
+/*微信*/
+.bbsindex-act .go-top {bottom: 10px;box-shadow: none;position: fixed;right: 10px;height:150px; _position:absolute;}
+.go-top {border-radius: 5px 5px 5px 5px;bottom: 300px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);position: fixed;right: 15px;text-align: center;z-index: 80;}
+.vcode-main img{ width:148px; height:148px;}
+.bbsindex-act .go-top a, .bbsindex-act .go-top a:visited, .bbsindex-act .go-top a.vcode { background: url(../images/index/go_top.png) no-repeat;border: 0 none;border-radius: 0 0 0 0;display: block;height: 0;overflow: hidden;padding: 50px 0 0;width: 50px;}
+.vcode-main {background:#FFFFFF;border: 1px solid #BBBBBB;box-shadow: 0 0 3px rgba(100, 100, 100, 0.5);padding: 10px 20px 20px;position: absolute;width: 146px;display:none;z-index: 999;}
+.vcode-main p {height: 36px;line-height: 36px;text-align: center;}
+.bbsindex-act .go-top a.vcode, .bbsindex-act .go-top a.vcode:visited { background-position: 0 -152px;}
+.bbsindex-act .go-top a.go-top-btn, .bbsindex-act .go-top a.go-top-btn:visited { background-position: 0 -51px;display: none;}
+.bbsindex-act .go-top a.go-top-btn:hover {background-position: -51px -51px;}
+.bbsindex-act .go-top a.vcode:hover {background-position: -51px -152px; }
+.br_none{ border:none;}
+.gybq{ display:block; line-height:30px; height:40px;}
+.gybq a{ color:#6C8B36;}
